@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900");
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding-top: 37px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, white, white, darkcyan);
+}
+
+@media only screen and (max-width: 990px) {
+    .NaVBar {
+        width: 100%;
+        margin-left: 3px;
+    }
+}
+
+.NaVBar li a {
+    text-align: center;
+    padding-right: 17px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.NaVBar li :hover {
+    color: darkcyan;
+}
+
+.NaVBar li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:hover {
+    background-color: grey;
+}
+
+.logo img {
+    height: 65px;
+}
+
+@media only screen and (max-width:675px) {
+    .NaVBar li a {
+        font-size: 1.2rem;
+    }
+    .logo img {
+        margin-left: 10%;
+        width: 60px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:730px) {
+    .logo img {
+        width: 160px;
+        height: 50px;
+    }
+}
+
+.intro h4 {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.intro {
+    font-size: 20px;
+    text-indent: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-align: justify;
+    padding: 25px 55px;
+}
+
+
+/* Service Area CSS */
+
+.service-btn {
+    border-radius: 20%;
+    margin: 15px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    background: linear-gradient(to right, darkcyan, #83c331);
+}
+
+.single-course-area .course-icon {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91px;
+    flex: 0 0 91px;
+    min-width: 91px;
+    width: 91px;
+    background: darkcyan;
+    background: -webkit-linear-gradient(to right, darkcyan, #83c331);
+    background: linear-gradient(to right, darkcyan, #83c331);
+    width: 91px;
+    height: 91px;
+    line-height: 95px;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-course-area .course-content h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-course-area .course-content h4 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single-course-area .course-content h4 {
+        font-size: 18px;
+    }
+}
+
+.single-course-area .course-content p {
+    margin-bottom: 0;
+}
+
+.single-course-area:hover .course-content h4,
+.single-course-area:focus .course-content h4 {
+    color: darkcyan;
+}
+
+
+}
+
+/* Testimonials Area CSS */
+.single-testimonial-area {
+    padding: 45px;
+    position: relative;
+    z-index: 1;
+}
+.single-testimonial-area .testimonial-thumb {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 55px;
+    flex: 0 0 55px;
+    max-width: 55px;
+    width: 55px;
+    height: 55px;
+    border: 2px solid transparent;
+    margin-right: 40px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.single-testimonial-area .testimonial-thumb img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.single-testimonial-area .testimonial-content h5 {
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.single-testimonial-area .testimonial-content p {
+    color: #ffffff;
+}
+.single-testimonial-area .testimonial-content h6 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+.single-testimonial-area .testimonial-content h6 span {
+    color: darkcyan;
+}
+.single-testimonial-area:hover .testimonial-thumb {
+    border-color: darkcyan;
+}
+.single-testimonial-area:hover .testimonial-content h5 {
+    color: darkcyan;
+}
+
+/*Card*/
+.card .card-header {
+    padding: 25px;
+    background: linear-gradient(to right, white, white, darkcyan);
+}
+.card-header .card-link {
+    margin: 10%;
+    font-size: 25px;
+    text-decoration: none;
+    color: black !important;
+    text-align: justify;
+}
+.card-link:hover {
+    color: darkcyan !important;
+    font-size: 27px;
+}
+.card-body {
+    margin-left: 10%;
+}
+
+/* Footer */
+.foot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foot1 {
+    line-height: 2;
+    color: white;
+}
+.white {
+    color: white;
+}
+.footlogo li a img {
+    width: 20px;
+}
+.footlogo li {
+    /* display: inline-block; */
+    
+    padding: 10px;
+    margin-left: -50px;
+    list-style: none;
+}
